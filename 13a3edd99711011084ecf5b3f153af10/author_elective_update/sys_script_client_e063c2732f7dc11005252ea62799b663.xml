@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>This field selects the vendor name based on the description</description>
+        <field>u_vendor_reference</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>SetVendor</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+		alert("onload is happening!");
+		//If the vendor value is empty
+			//alert("The SETVENDOR function has been triggered!!");
+			g_form.setValue("u_institution_reference", "4081520a9711011084ecf5b3f153afba", "u_name");
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-27 21:19:35</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e063c2732f7dc11005252ea62799b663</sys_id>
+        <sys_mod_count>25</sys_mod_count>
+        <sys_name>SetVendor</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="TaxPreparer" source="x_435483_taxprepar">13a3edd99711011084ecf5b3f153af10</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TaxPreparer">13a3edd99711011084ecf5b3f153af10</sys_scope>
+        <sys_update_name>sys_script_client_e063c2732f7dc11005252ea62799b663</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-02 03:29:47</sys_updated_on>
+        <table>x_435483_taxprepar_transaction</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="TaxPreparer">13a3edd99711011084ecf5b3f153af10</application>
+        <file_path/>
+        <instance_id>8d804421db42ff843050ac44d4961961</instance_id>
+        <instance_name>dev87258</instance_name>
+        <name>sys_script_client_e063c2732f7dc11005252ea62799b663</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;false&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description&gt;This field selects the vendor name based on the description&lt;/description&gt;&lt;field&gt;u_vendor_reference&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;SetVendor&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onLoad() {
+		alert("onload is happening!");
+		//If the vendor value is empty
+			//alert("The SETVENDOR function has been triggered!!");
+			g_form.setValue("u_institution_reference", "4081520a9711011084ecf5b3f153afba", "u_name");
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-02-27 21:19:35&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;e063c2732f7dc11005252ea62799b663&lt;/sys_id&gt;&lt;sys_mod_count&gt;25&lt;/sys_mod_count&gt;&lt;sys_name&gt;SetVendor&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="TaxPreparer" source="x_435483_taxprepar"&gt;13a3edd99711011084ecf5b3f153af10&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="TaxPreparer"&gt;13a3edd99711011084ecf5b3f153af10&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_e063c2732f7dc11005252ea62799b663&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-03-02 03:29:47&lt;/sys_updated_on&gt;&lt;table&gt;x_435483_taxprepar_transaction&lt;/table&gt;&lt;type&gt;onLoad&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1440382674</payload_hash>
+        <record_name>SetVendor</record_name>
+        <reverted_from/>
+        <source>66dc7b362ff1411005252ea62799b6b5</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-02 03:29:47</sys_created_on>
+        <sys_id>dd63b1e02f8a411005252ea62799b648</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17f48ad3cd10000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-02 03:29:47</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>d563b1e02b8a4110b44bca2aaead6148</update_guid>
+        <update_guid_history>d563b1e02b8a4110b44bca2aaead6148:1440382674,5e4f25204d8a41102303c302ca77b41b:-1191543049,1c952128ae4a4110c540c3d81553ce77:1620987615,ede46928174a411043124afa3664ca38:-13501781,f1c4e528c04a41107b1fbed488150592:-674087229,e9cab7fba8b10510368ab23a56811a43:1645896254,8e6a37fb51b105108fbde5a0431d50f0:1123586032,5346d23379bdc110e777a02360caa858:1943065095,2a16d2334abdc1105e884ede92730653:615186858,f5c5d2332bbdc1100cdbd3b38ae0709f:-1406317669,57a5523374bdc110be8a715cce132ad0:-729063979,4635dabfcb7dc1100b14abcf12bb1801:-525284623,8d059aff5a7dc1100b1f3e7f41a6d315:949810897,e2041ebf2b7dc1104da2ea50ed254c3f:-1332085453,adb21e3fbf7dc1106a585a26c68662b0:-1256807593,5e321e3f467dc1105ed139e50cdbb693:-1363139274,b6f09efb0e7dc1106ec2758d0551a5d0:867085666,e22f427bca7dc1104cc7e2a1a310c177:281550082,351f8a7b327dc110425d9395afbc1d43:-617989622,c1ad0a3bba7dc1102f68f1dc1b88a784:281550082,e99d427b607dc110e7a3c83658d4fc6f:466086805,7dfc427bd87dc11096aabc9a89360f2f:114141087,344c863b917dc110bee72acd1750e7aa:-379353711,3f0c8ef7c67dc1106e1b114477e70858:-1833091848,8debc23b047dc1104809c67c704bfb3d:-914893768,037b86f32b7dc11033296534ceef6afe:10946781</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-02 04:40:26</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>8b017826e2aa4f199595ff5dd4476789</sys_id>
+        <sys_metadata>e063c2732f7dc11005252ea62799b663</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SetVendor</sys_name>
+        <sys_package display_value="TaxPreparer" source="x_435483_taxprepar">13a3edd99711011084ecf5b3f153af10</sys_package>
+        <sys_parent display_value="Transaction">c515d68a9711011084ecf5b3f153afeb</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="TaxPreparer">13a3edd99711011084ecf5b3f153af10</sys_scope>
+        <sys_scope_delete display_value="">017aed8a7291423f80027e90d4702b91</sys_scope_delete>
+        <sys_update_name>sys_script_client_e063c2732f7dc11005252ea62799b663</sys_update_name>
+        <sys_update_version display_value="sys_script_client_e063c2732f7dc11005252ea62799b663">dd63b1e02f8a411005252ea62799b648</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-02 04:40:26</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

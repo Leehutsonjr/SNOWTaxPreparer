@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_amount" label="Amount" language="en" table="baotestimportset">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_amount</element>
+            <help/>
+            <hint/>
+            <label>Amount</label>
+            <language>en</language>
+            <name>baotestimportset</name>
+            <plural>Amounts</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-03 02:10:46</sys_created_on>
+            <sys_id>79eae6b42f02011005252ea62799b6de</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Amount</sys_name>
+            <sys_package display_value="TaxPreparer" source="x_435483_taxprepar">13a3edd99711011084ecf5b3f153af10</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="TaxPreparer">13a3edd99711011084ecf5b3f153af10</sys_scope>
+            <sys_update_name>sys_documentation_baotestimportset_u_amount_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-03 02:10:46</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

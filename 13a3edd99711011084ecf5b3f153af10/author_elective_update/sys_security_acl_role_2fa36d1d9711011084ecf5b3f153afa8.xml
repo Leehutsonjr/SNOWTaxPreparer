@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-26 03:29:27</sys_created_on>
+        <sys_id>2fa36d1d9711011084ecf5b3f153afa8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_435483_taxprepar_taxpreparer_table.x_435483_taxprepar.user</sys_name>
+        <sys_package display_value="TaxPreparer" source="x_435483_taxprepar">13a3edd99711011084ecf5b3f153af10</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TaxPreparer">13a3edd99711011084ecf5b3f153af10</sys_scope>
+        <sys_security_acl display_value="x_435483_taxprepar_taxpreparer_table">27a36d1d9711011084ecf5b3f153afa6</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_2fa36d1d9711011084ecf5b3f153afa8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-26 03:29:27</sys_updated_on>
+        <sys_user_role display_value="x_435483_taxprepar.user" name="x_435483_taxprepar.user">17a36d1d9711011084ecf5b3f153af29</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="TaxPreparer">13a3edd99711011084ecf5b3f153af10</application>
+        <file_path/>
+        <instance_id>5995e0c5dbeb37c0f492c59705961938</instance_id>
+        <instance_name>dev92438</instance_name>
+        <name>sys_security_acl_role_2fa36d1d9711011084ecf5b3f153afa8</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-26 03:29:27</sys_created_on><sys_id>2fa36d1d9711011084ecf5b3f153afa8</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_435483_taxprepar_taxpreparer_table.x_435483_taxprepar.user</sys_name><sys_package display_value="TaxPreparer" source="x_435483_taxprepar">13a3edd99711011084ecf5b3f153af10</sys_package><sys_policy/><sys_scope display_value="TaxPreparer">13a3edd99711011084ecf5b3f153af10</sys_scope><sys_security_acl display_value="x_435483_taxprepar_taxpreparer_table">27a36d1d9711011084ecf5b3f153afa6</sys_security_acl><sys_update_name>sys_security_acl_role_2fa36d1d9711011084ecf5b3f153afa8</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-26 03:29:27</sys_updated_on><sys_user_role display_value="x_435483_taxprepar.user" name="x_435483_taxprepar.user">17a36d1d9711011084ecf5b3f153af29</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>-2020144437</payload_hash>
+        <record_name>x_435483_taxprepar_taxpreparer_table.x_435483_taxprepar.user</record_name>
+        <reverted_from/>
+        <source>97a36d1d9711011084ecf5b3f153af88</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-26 03:29:27</sys_created_on>
+        <sys_id>a3a36d1d9711011084ecf5b3f153afab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17e946e5cf00000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-26 03:29:27</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>eba36d1db61101108d14a17cc4e3e8aa</update_guid>
+        <update_guid_history>eba36d1db61101108d14a17cc4e3e8aa:-2020144437</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_435483_taxprepar_taxpreparer_table.x_435483_taxprepar.user">77acce829711011084ecf5b3f153afe6</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-28 14:24:03</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>00169f8e49c8463989721af03c785be1</sys_id>
+        <sys_metadata>2fa36d1d9711011084ecf5b3f153afa8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_435483_taxprepar_taxpreparer_table.x_435483_taxprepar.user</sys_name>
+        <sys_package display_value="TaxPreparer" source="x_435483_taxprepar">13a3edd99711011084ecf5b3f153af10</sys_package>
+        <sys_parent display_value="">27a36d1d9711011084ecf5b3f153afa6</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="TaxPreparer">13a3edd99711011084ecf5b3f153af10</sys_scope>
+        <sys_scope_delete display_value="">017aed8a7291423f80027e90d4702b91</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_2fa36d1d9711011084ecf5b3f153afa8</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_2fa36d1d9711011084ecf5b3f153afa8">a3a36d1d9711011084ecf5b3f153afab</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-28 14:24:03</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

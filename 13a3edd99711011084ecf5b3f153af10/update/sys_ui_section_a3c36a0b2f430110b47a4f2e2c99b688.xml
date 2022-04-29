@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="a3c36a0b2f430110b47a4f2e2c99b688" sys_domain="global" table="x_435483_taxprepar_typesource" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-04-28 18:28:54</sys_created_on>
+            <sys_id>fbc36a0b2f430110b47a4f2e2c99b68e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_435483_taxprepar_typesource" sys_domain="global" view="Default view">a3c36a0b2f430110b47a4f2e2c99b688</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-04-28 18:28:54</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_type</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-04-28 18:28:54</sys_created_on>
+            <sys_id>f3c36a0b2f430110b47a4f2e2c99b68f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_435483_taxprepar_typesource" sys_domain="global" view="Default view">a3c36a0b2f430110b47a4f2e2c99b688</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-04-28 18:28:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-04-28 18:28:54</sys_created_on>
+            <sys_id>77c36a0b2f430110b47a4f2e2c99b68f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_435483_taxprepar_typesource" sys_domain="global" view="Default view">a3c36a0b2f430110b47a4f2e2c99b688</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-04-28 18:28:54</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_field_2</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-04-28 18:28:54</sys_created_on>
+            <sys_id>f7c36a0b2f430110b47a4f2e2c99b68f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_435483_taxprepar_typesource" sys_domain="global" view="Default view">a3c36a0b2f430110b47a4f2e2c99b688</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-04-28 18:28:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-04-28 18:28:54</sys_created_on>
+            <sys_id>7bc36a0b2f430110b47a4f2e2c99b68f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_435483_taxprepar_typesource" sys_domain="global" view="Default view">a3c36a0b2f430110b47a4f2e2c99b688</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-04-28 18:28:54</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_435483_taxprepar_typesource</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-04-28 18:28:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a3c36a0b2f430110b47a4f2e2c99b688</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_435483_taxprepar_typesource</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="TaxPreparer" source="x_435483_taxprepar">13a3edd99711011084ecf5b3f153af10</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="TaxPreparer">13a3edd99711011084ecf5b3f153af10</sys_scope>
+            <sys_update_name>sys_ui_section_a3c36a0b2f430110b47a4f2e2c99b688</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-04-28 18:28:53</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_435483_taxprepar_transaction" version="2" view="sys_ref_list">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>number</element>
+            <list_id display_value="x_435483_taxprepar_transaction" element="NULL" name="x_435483_taxprepar_transaction" parent="NULL" relationship="NULL" sys_domain="global" view="17bdd243a9223010c0a065f439e6610b">f4f7c0432f35411005252ea62799b60f</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-02-25 03:49:28</sys_created_on>
+            <sys_id>70f7c0432f35411005252ea62799b610</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-02-25 03:49:28</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_435483_taxprepar_transaction</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-02-25 03:49:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f4f7c0432f35411005252ea62799b60f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_435483_taxprepar_transaction</sys_name>
+            <sys_package display_value="TaxPreparer" source="x_435483_taxprepar">13a3edd99711011084ecf5b3f153af10</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="TaxPreparer">13a3edd99711011084ecf5b3f153af10</sys_scope>
+            <sys_update_name>sys_ui_list_x_435483_taxprepar_transaction_sys_ref_list</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-02-25 03:49:28</sys_updated_on>
+            <sys_user/>
+            <view display_value="Reference List" name="sys_ref_list">17bdd243a9223010c0a065f439e6610b</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

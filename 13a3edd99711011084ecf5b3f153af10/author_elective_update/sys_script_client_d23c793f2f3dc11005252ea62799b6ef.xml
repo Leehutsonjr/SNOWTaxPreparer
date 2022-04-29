@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>We are testing when the onload function triggers</description>
+        <field>u_amount</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>onLoadTest1</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+   //Type appropriate comment here, and begin script below
+   console.log("The onload function has triggered now!!!");
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-27 20:39:45</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d23c793f2f3dc11005252ea62799b6ef</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>onLoadTest1</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="TaxPreparer" source="x_435483_taxprepar">13a3edd99711011084ecf5b3f153af10</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TaxPreparer">13a3edd99711011084ecf5b3f153af10</sys_scope>
+        <sys_update_name>sys_script_client_d23c793f2f3dc11005252ea62799b6ef</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-27 21:56:22</sys_updated_on>
+        <table>x_435483_taxprepar_transaction</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="TaxPreparer">13a3edd99711011084ecf5b3f153af10</application>
+        <file_path/>
+        <instance_id>8d804421db42ff843050ac44d4961961</instance_id>
+        <instance_name>dev87258</instance_name>
+        <name>sys_script_client_d23c793f2f3dc11005252ea62799b6ef</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;false&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description&gt;We are testing when the onload function triggers&lt;/description&gt;&lt;field&gt;u_amount&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;onLoadTest1&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onLoad() {
+   //Type appropriate comment here, and begin script below
+   console.log("The onload function has triggered now!!!");
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-02-27 20:39:45&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;d23c793f2f3dc11005252ea62799b6ef&lt;/sys_id&gt;&lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;&lt;sys_name&gt;onLoadTest1&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="TaxPreparer" source="x_435483_taxprepar"&gt;13a3edd99711011084ecf5b3f153af10&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="TaxPreparer"&gt;13a3edd99711011084ecf5b3f153af10&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_d23c793f2f3dc11005252ea62799b6ef&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-02-27 21:56:22&lt;/sys_updated_on&gt;&lt;table&gt;x_435483_taxprepar_transaction&lt;/table&gt;&lt;type&gt;onLoad&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1798618316</payload_hash>
+        <record_name>onLoadTest1</record_name>
+        <reverted_from/>
+        <source>66dc7b362ff1411005252ea62799b6b5</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-27 21:56:22</sys_created_on>
+        <sys_id>3de352bf2f7dc11005252ea62799b645</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17f3d2f45890000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-27 21:56:22</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>35e352bf8e7dc1105001b0aeab8d7e45</update_guid>
+        <update_guid_history>35e352bf8e7dc1105001b0aeab8d7e45:1798618316,03b3d67fa77dc1107bddcfe8cd1bce9b:1919924601,5d33d2bf717dc110efcf10c7404e8026:-1557769945,10c21e7f287dc1107a0abcdbc997fde4:747846331,2a628a3f433dc110fab7285bfce66c1f:-2009039576,63524273127dc110d00851b903df6f42:-810079599</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-02 02:23:34</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>0032cbfd9eb7400c81186d5fbd1097c9</sys_id>
+        <sys_metadata>d23c793f2f3dc11005252ea62799b6ef</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>onLoadTest1</sys_name>
+        <sys_package display_value="TaxPreparer" source="x_435483_taxprepar">13a3edd99711011084ecf5b3f153af10</sys_package>
+        <sys_parent display_value="Transaction">c515d68a9711011084ecf5b3f153afeb</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="TaxPreparer">13a3edd99711011084ecf5b3f153af10</sys_scope>
+        <sys_scope_delete display_value="">017aed8a7291423f80027e90d4702b91</sys_scope_delete>
+        <sys_update_name>sys_script_client_d23c793f2f3dc11005252ea62799b6ef</sys_update_name>
+        <sys_update_version display_value="sys_script_client_d23c793f2f3dc11005252ea62799b6ef">3de352bf2f7dc11005252ea62799b645</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-02 02:23:34</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

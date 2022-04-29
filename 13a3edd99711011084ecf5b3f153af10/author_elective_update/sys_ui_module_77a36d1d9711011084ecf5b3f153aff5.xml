@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="DELETE">
+        <active>true</active>
+        <application display_value="TaxPreparer">6ba36d1d9711011084ecf5b3f153aff2</application>
+        <filter/>
+        <name>TaxPreparer Table</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_435483_taxprepar.user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-26 03:29:28</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>77a36d1d9711011084ecf5b3f153aff5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TaxPreparer Table</sys_name>
+        <sys_package display_value="TaxPreparer" source="x_435483_taxprepar">13a3edd99711011084ecf5b3f153af10</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TaxPreparer">13a3edd99711011084ecf5b3f153af10</sys_scope>
+        <sys_update_name>sys_ui_module_77a36d1d9711011084ecf5b3f153aff5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-26 03:29:28</sys_updated_on>
+        <table>x_435483_taxprepar_taxpreparer_table</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="TaxPreparer">13a3edd99711011084ecf5b3f153af10</application>
+        <file_path/>
+        <instance_id>5995e0c5dbeb37c0f492c59705961938</instance_id>
+        <instance_name>dev92438</instance_name>
+        <name>sys_ui_module_77a36d1d9711011084ecf5b3f153aff5</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module"><sys_ui_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="TaxPreparer">6ba36d1d9711011084ecf5b3f153aff2</application><filter/><name>TaxPreparer Table</name><order/><path/><path_relative_to_root>false</path_relative_to_root><roles>x_435483_taxprepar.user</roles><sys_class_name>sys_ui_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-26 03:29:28</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>77a36d1d9711011084ecf5b3f153aff5</sys_id><sys_mod_count>0</sys_mod_count><sys_name>TaxPreparer Table</sys_name><sys_package display_value="TaxPreparer" source="x_435483_taxprepar">13a3edd99711011084ecf5b3f153af10</sys_package><sys_policy/><sys_scope display_value="TaxPreparer">13a3edd99711011084ecf5b3f153af10</sys_scope><sys_update_name>sys_ui_module_77a36d1d9711011084ecf5b3f153aff5</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-26 03:29:28</sys_updated_on><table>x_435483_taxprepar_taxpreparer_table</table><uncancelable>false</uncancelable><view_name/></sys_ui_module></record_update>]]></payload>
+        <payload_hash>1620095212</payload_hash>
+        <record_name>TaxPreparer Table</record_name>
+        <reverted_from/>
+        <source>97a36d1d9711011084ecf5b3f153af88</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-26 03:29:28</sys_created_on>
+        <sys_id>73a36d1d9711011084ecf5b3f153aff8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17e946e60f60000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-26 03:29:28</sys_updated_on>
+        <type>Module</type>
+        <update_guid>bba36d1d88110110d7a4cc4fff6d99f7</update_guid>
+        <update_guid_history>bba36d1d88110110d7a4cc4fff6d99f7:1620095212</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-28 14:24:05</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_module">sys_ui_module</sys_db_object>
+        <sys_id>553ee41b3b924e0481114d3516e9c044</sys_id>
+        <sys_metadata>77a36d1d9711011084ecf5b3f153aff5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TaxPreparer Table</sys_name>
+        <sys_package display_value="TaxPreparer" source="x_435483_taxprepar">13a3edd99711011084ecf5b3f153af10</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="TaxPreparer">13a3edd99711011084ecf5b3f153af10</sys_scope>
+        <sys_scope_delete display_value="">017aed8a7291423f80027e90d4702b91</sys_scope_delete>
+        <sys_update_name>sys_ui_module_77a36d1d9711011084ecf5b3f153aff5</sys_update_name>
+        <sys_update_version display_value="sys_ui_module_77a36d1d9711011084ecf5b3f153aff5">73a36d1d9711011084ecf5b3f153aff8</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-28 14:24:05</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

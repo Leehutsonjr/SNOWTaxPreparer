@@ -1,11 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Transaction" max_length="40" name="x_435483_taxprepar_transaction" sizeclass="619" type="collection">
+    <element label="Transaction" max_length="40" name="x_435483_taxprepar_transaction" sizeclass="1119" type="collection">
+        <element choice="1" label="Account Number" max_length="32" name="account_number" reference="x_435483_taxprepar_accountnumber" type="reference">
+            <choice/>
+        </element>
+        <element choice="1" label="In/Out" max_length="25" name="in_out" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Expense" value="Expense"/>
+                <element inactive_on_update="false" label="Income" value="Income"/>
+            </choice>
+        </element>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
-        <element choice="1" label="Sub-Type" max_length="32" name="sub_type" reference="x_435483_taxprepar_type" type="reference">
+        <element choice="1" default="N/A" label="Sub-Type" max_length="32" name="sub_type" reference="x_435483_taxprepar_type" type="reference">
             <choice/>
         </element>
         <element label="Amount" max_length="38" name="u_amount" type="currency"/>
-        <element attributes="encode_utf8=false" choice="1" label="Category" max_length="32" name="u_category_reference" reference="x_435483_taxprepar_category" type="reference">
+        <element attributes="encode_utf8=false" choice="1" default="N/A" label="Category" max_length="32" name="u_category_reference" reference="x_435483_taxprepar_category" type="reference">
             <choice/>
         </element>
         <element choice="1" default="Canada" label="Country" max_length="40" name="u_country" type="choice">
@@ -26,18 +35,21 @@
             <choice/>
         </element>
         <index name="index">
-            <element name="sub_type"/>
+            <element name="account_number"/>
         </index>
         <index name="index2">
-            <element name="u_vendor_reference"/>
+            <element name="sub_type"/>
         </index>
         <index name="index3">
-            <element name="u_category_reference"/>
+            <element name="u_vendor_reference"/>
         </index>
         <index name="index4">
-            <element name="u_type"/>
+            <element name="u_category_reference"/>
         </index>
         <index name="index5">
+            <element name="u_type"/>
+        </index>
+        <index name="index6">
             <element name="u_institution_reference"/>
         </index>
     </element>

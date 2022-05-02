@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Vendor" max_length="40" name="x_435483_taxprepar_vendor" sizeclass="130" type="collection">
+    <element label="Vendor" max_length="40" name="x_435483_taxprepar_vendor" sizeclass="137" type="collection">
         <element choice="1" label="Category" max_length="50" name="category" reference="x_435483_taxprepar_category" type="reference">
             <choice/>
         </element>
@@ -7,6 +7,12 @@
             <choice>
                 <element inactive_on_update="false" label="Canada" value="Canada"/>
                 <element inactive_on_update="false" label="US" value="US"/>
+            </choice>
+        </element>
+        <element choice="1" label="Direction" max_length="50" name="direction" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Expenses" value="Expenses"/>
+                <element inactive_on_update="false" label="Income" value="Income"/>
             </choice>
         </element>
         <element label="Match" max_length="50" name="match" type="string"/>

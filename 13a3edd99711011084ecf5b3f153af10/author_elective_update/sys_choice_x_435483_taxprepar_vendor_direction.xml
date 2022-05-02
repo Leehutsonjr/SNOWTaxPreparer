@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="direction" table="x_435483_taxprepar_vendor" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>direction</element>
+            <name>x_435483_taxprepar_vendor</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-05-01 21:48:50</sys_created_on>
+            <sys_id>b95eee842f17c110b47a4f2e2c99b654</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>direction</sys_name>
+            <sys_package display_value="TaxPreparer" source="x_435483_taxprepar">13a3edd99711011084ecf5b3f153af10</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="TaxPreparer">13a3edd99711011084ecf5b3f153af10</sys_scope>
+            <sys_update_name>sys_choice_x_435483_taxprepar_vendor_direction</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-05-01 21:48:50</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>direction</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Expenses</label>
+            <language>en</language>
+            <name>x_435483_taxprepar_vendor</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-05-01 21:49:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2a6eea842f17c110b47a4f2e2c99b620</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-05-01 21:49:33</sys_updated_on>
+            <value>Expenses</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>direction</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Income</label>
+            <language>en</language>
+            <name>x_435483_taxprepar_vendor</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-05-01 21:48:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>315eee842f17c110b47a4f2e2c99b654</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-05-01 21:49:05</sys_updated_on>
+            <value>Income</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

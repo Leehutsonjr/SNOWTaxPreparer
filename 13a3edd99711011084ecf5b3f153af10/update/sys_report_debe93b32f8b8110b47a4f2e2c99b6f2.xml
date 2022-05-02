@@ -19,7 +19,7 @@
         <chart_subtitle_color/>
         <chart_subtitle_size>14</chart_subtitle_size>
         <chart_subtitle_style>normal</chart_subtitle_style>
-        <chart_title>2021 US Taxes</chart_title>
+        <chart_title>Lee Hutson Jr - 2021 US Taxes</chart_title>
         <chart_title_color display_value="Black">65b30218a9fe3dba0120df8611520d97</chart_title_color>
         <chart_title_size>16</chart_title_size>
         <chart_title_style>normal</chart_title_style>
@@ -29,7 +29,7 @@
         <color display_value="Default Color">de699435d7033100b4964ebfae610331</color>
         <color_palette display_value="Default UI14">aa558ab3d7732100fa6c0c12ce610377</color_palette>
         <colors/>
-        <column>u_category_reference,u_country</column>
+        <column>u_category_reference,in_out,u_country</column>
         <compute_percent>aggregate</compute_percent>
         <content/>
         <created_by_user display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</created_by_user>
@@ -47,12 +47,15 @@
         <exp_report_attrs>true</exp_report_attrs>
         <field>u_country</field>
         <field_list>u_institution_reference,account_number,u_category_reference,u_vendor_reference,u_type,sub_type,u_description,u_amount,u_country</field_list>
-        <filter table="x_435483_taxprepar_transaction">u_typeISNOTEMPTY^u_type!=1695c91b2f4b0110b47a4f2e2c99b6f2^u_type!=e0a7f05f2f0b0110b47a4f2e2c99b68f^u_type!=92dc03f32f4b8110b47a4f2e2c99b68b^u_category_referenceISNOTEMPTY^u_category_reference!=d295c91b2f4b0110b47a4f2e2c99b6f0<item endquery="false" field="u_type" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+        <filter table="x_435483_taxprepar_transaction">u_typeISNOTEMPTY^u_type!=1695c91b2f4b0110b47a4f2e2c99b6f2^u_type!=e0a7f05f2f0b0110b47a4f2e2c99b68f^u_type!=92dc03f32f4b8110b47a4f2e2c99b68b^u_category_referenceISNOTEMPTY^u_category_reference!=d295c91b2f4b0110b47a4f2e2c99b6f0^u_country!=Canada^u_type!=4b456e4b2f430110b47a4f2e2c99b6a8^u_type!=f6456e4b2f430110b47a4f2e2c99b6a5<item endquery="false" field="u_type" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
             <item display_table="x_435483_taxprepar_type" display_value="(empty)" endquery="false" field="u_type" goto="false" newquery="false" operator="!=" or="false" value="1695c91b2f4b0110b47a4f2e2c99b6f2"/>
             <item display_table="x_435483_taxprepar_type" display_value="Transfer" endquery="false" field="u_type" goto="false" newquery="false" operator="!=" or="false" value="e0a7f05f2f0b0110b47a4f2e2c99b68f"/>
             <item display_table="x_435483_taxprepar_type" display_value="Duplicate" endquery="false" field="u_type" goto="false" newquery="false" operator="!=" or="false" value="92dc03f32f4b8110b47a4f2e2c99b68b"/>
             <item endquery="false" field="u_category_reference" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
             <item display_table="x_435483_taxprepar_category" display_value="(empty)" endquery="false" field="u_category_reference" goto="false" newquery="false" operator="!=" or="false" value="d295c91b2f4b0110b47a4f2e2c99b6f0"/>
+            <item display_value="Canada" endquery="false" field="u_country" goto="false" newquery="false" operator="!=" or="false" value="Canada"/>
+            <item display_table="x_435483_taxprepar_type" display_value="Loan" endquery="false" field="u_type" goto="false" newquery="false" operator="!=" or="false" value="4b456e4b2f430110b47a4f2e2c99b6a8"/>
+            <item display_table="x_435483_taxprepar_type" display_value="Fees" endquery="false" field="u_type" goto="false" newquery="false" operator="!=" or="false" value="f6456e4b2f430110b47a4f2e2c99b6a5"/>
         </filter>
         <formatting_configuration>{"table":"incident","stringFormattingProperties":{},"durationFormattingProperties":{},"dateFormattingProperties":{},"numberFormattingProperties":{}}</formatting_configuration>
         <from/>
@@ -81,7 +84,7 @@
         <other_threshold>-2</other_threshold>
         <others>true</others>
         <page_hdrftr/>
-        <pivot_expanded>false</pivot_expanded>
+        <pivot_expanded>true</pivot_expanded>
         <report_drilldown/>
         <report_source/>
         <roles/>
@@ -103,7 +106,7 @@
         <show_legend>true</show_legend>
         <show_legend_border>false</show_legend_border>
         <show_marker>false</show_marker>
-        <show_zero>false</show_zero>
+        <show_zero>true</show_zero>
         <source_type>table</source_type>
         <start_time/>
         <style_config/>
@@ -112,14 +115,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-05-01 06:41:44</sys_created_on>
         <sys_id>debe93b32f8b8110b47a4f2e2c99b6f2</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>24</sys_mod_count>
         <sys_name>2021TaxesUS</sys_name>
         <sys_package display_value="TaxPreparer" source="x_435483_taxprepar">13a3edd99711011084ecf5b3f153af10</sys_package>
         <sys_policy/>
         <sys_scope display_value="TaxPreparer">13a3edd99711011084ecf5b3f153af10</sys_scope>
         <sys_update_name>sys_report_debe93b32f8b8110b47a4f2e2c99b6f2</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-05-01 10:11:55</sys_updated_on>
+        <sys_updated_on>2022-05-02 20:11:44</sys_updated_on>
         <table>x_435483_taxprepar_transaction</table>
         <title>2021TaxesUS</title>
         <title_horizontal_alignment>center</title_horizontal_alignment>

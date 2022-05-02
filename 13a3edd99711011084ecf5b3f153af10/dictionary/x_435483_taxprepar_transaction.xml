@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Transaction" max_length="40" name="x_435483_taxprepar_transaction" sizeclass="1119" type="collection">
+    <element label="Transaction" max_length="40" name="x_435483_taxprepar_transaction" sizeclass="822" type="collection">
         <element choice="1" label="Account Number" max_length="32" name="account_number" reference="x_435483_taxprepar_accountnumber" type="reference">
             <choice/>
         </element>
-        <element choice="1" label="In/Out" max_length="25" name="in_out" type="string">
+        <element choice="1" label="Direction" max_length="50" name="in_out" type="string">
             <choice>
-                <element inactive_on_update="false" label="Expense" value="Expense"/>
+                <element inactive_on_update="false" label="Expenses" value="Expenses"/>
                 <element inactive_on_update="false" label="Income" value="Income"/>
             </choice>
         </element>
@@ -17,7 +17,7 @@
         <element attributes="encode_utf8=false" choice="1" default="N/A" label="Category" max_length="32" name="u_category_reference" reference="x_435483_taxprepar_category" type="reference">
             <choice/>
         </element>
-        <element choice="1" default="Canada" label="Country" max_length="40" name="u_country" type="choice">
+        <element choice="1" label="Country" max_length="40" name="u_country" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Canada" value="Canada"/>
                 <element inactive_on_update="false" label="US" value="United States"/>

@@ -7,43 +7,51 @@
 
     //Set vendor based on description
     // Add your code here
-    var array = [];
-	var count = 0;
     var g = new GlideRecord("x_435483_taxprepar_vendor");
     g.orderBy('priority');
     g.query();
     while (g.next()) {
-		//gs.info("debugTax: OUTSIDE the IF statement");
-		//gs.info("debugTax: This is the Vendor Table Item: " + g.match);
-		//gs.info("debugTax: This is the source data csv Item:" + source.u_description);
         //If there is a match
         if (source.u_description.toUpperCase().indexOf(g.match.toUpperCase()) !== -1) {
-			//gs.info("debugTax: INSIDE the if statement! This means THERE WAS A MATCH!---------------------->>>>>> Source: " + source.u_description + " match: " + g.match);
-			//gs.info("This is the source data from the csv:" + source.u_description);
-			//gs.info("debugTax: This is what is being Labled as the VENDOR: " + g.u_name);
+            //gs.info("debugTax: INSIDE the if statement! This means THERE WAS A MATCH!---------------------->>>>>> Source: " + source.u_description + " match: " + g.match);
+            //gs.info("This is the source data from the csv:" + source.u_description);
+            //gs.info("debugTax: This is what is being Labled as the VENDOR: " + g.u_name);
             target.u_vendor_reference.setDisplayValue(g.u_name);
             target.u_category_reference.setDisplayValue(g.category);
             target.u_type.setDisplayValue(g.typetype);
             target.sub_type.setDisplayValue(g.sub_type);
             target.u_country.setDisplayValue(g.country);
-			break;
+            target.in_out.setDisplayValue(g.direction);
+            break;
         }
-
     }
-
+    //all non itemized vendors grouped to either income or expense
+    if (!target.u_type.getDisplayValue()) {
+        if (source.u_amount > 0) {
+            target.u_type.setDisplayValue("Non-Itemized");
+            target.in_out.setDisplayValue("Income");
+            target.u_country.setDisplayValue("US");
+            target.u_category_reference.setDisplayValue("Household"); //This is temporary
+        } else {
+            target.u_type.setDisplayValue("Non-Itemized");
+            target.in_out.setDisplayValue("Expenses");
+            target.u_country.setDisplayValue("US");
+            target.u_category_reference.setDisplayValue("Business"); //This is temporary
+        }
+    }
 })(source, map, log, target);]]></script>
         <sys_class_name>sys_transform_script</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-04-29 03:34:16</sys_created_on>
         <sys_id>7010a8d72fc70110b47a4f2e2c99b6f7</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_name>onBefore</sys_name>
         <sys_package display_value="TaxPreparer" source="x_435483_taxprepar">13a3edd99711011084ecf5b3f153af10</sys_package>
         <sys_policy/>
         <sys_scope display_value="TaxPreparer">13a3edd99711011084ecf5b3f153af10</sys_scope>
         <sys_update_name>sys_transform_script_7010a8d72fc70110b47a4f2e2c99b6f7</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-05-01 09:39:26</sys_updated_on>
+        <sys_updated_on>2022-05-02 03:30:21</sys_updated_on>
         <when>onBefore</when>
     </sys_transform_script>
 </record_update>
